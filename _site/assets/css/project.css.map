@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "project.css",
+	"sources": [
+		"project.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";\n@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');\n\n.project-container {\n\n    width: 95%;\n    max-width: 1350px;\n    margin: 25px auto;\n    \n    height: auto;\n\n    overflow: hidden;\n    border-radius: 50px 10px;\n\n    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);\n    \n}\n\n.project-header {\n\n    height: 250px;\n    width: 100%;\n\n    display: flex;\n    flex-direction: column;\n    justify-content: flex-end;\n\n    background-size: cover;\n    background-position: center center;\n\n    color: white;\n    text-shadow: 0px 0px 5px black;\n\n}\n\n.project-details {\n\n    padding: 20px;\n\n}\n\n.project-name {\n\n    margin-top: 10px;\n\n}\n\n.project-content {\n\n    height: auto;\n    width: 100%;\n\n    padding: 20px;\n\n}",
+		"* {\n    padding: 0px;\n    margin: 0px;\n}\n\nhtml {\n\n    background: #f3f3f3;    \n    font-family: 'Josefin Sans', sans-serif;\n    overflow-x: hidden;\n\n}\n\n.page-header {\n\n    height: 80px;\n    width: 100%;\n\n    padding-left: 20px;\n\n    display: flex;\n    align-items: center;\n\n}\n\n.site-logo {\n\n    font-family: 'Roboto', sans-serif;\n    font-size: 3em;\n    color: #202020;\n\n}\n\n.page-footer {\n\n    height: 40px;\n    width: 100%;\n\n    margin-top: 35px;\n\n    display: flex;\n    justify-content: center;\n    align-items: center;\n\n}\n\n.email-desc {\n\n    text-align: center;\n    color: #4d4d4d;\n\n}\n\n.my-email {\n\n    color: #202020;\n\n}\n"
+	],
+	"names": [],
+	"mappings": "AACA,OAAO,CAAC,4EAAI;ACDZ,AAAA,CAAC,CAAC,EACE,OAAO,EAAE,GAAG,EACZ,MAAM,EAAE,GAAG,GACd;;AAED,AAAA,IAAI,CAAC,EAED,UAAU,EAAE,OAAO,EACnB,WAAW,EAAE,0BAA0B,EACvC,UAAU,EAAE,MAAM,GAErB;;AAED,AAAA,YAAY,CAAC,EAET,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,EAEX,YAAY,EAAE,IAAI,EAElB,OAAO,EAAE,IAAI,EACb,WAAW,EAAE,MAAM,GAEtB;;AAED,AAAA,UAAU,CAAC,EAEP,WAAW,EAAE,oBAAoB,EACjC,SAAS,EAAE,GAAG,EACd,KAAK,EAAE,OAAO,GAEjB;;AAED,AAAA,YAAY,CAAC,EAET,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,EAEX,UAAU,EAAE,IAAI,EAEhB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,WAAW,EAAE,MAAM,GAEtB;;AAED,AAAA,WAAW,CAAC,EAER,UAAU,EAAE,MAAM,EAClB,KAAK,EAAE,OAAO,GAEjB;;AAED,AAAA,SAAS,CAAC,EAEN,KAAK,EAAE,OAAO,GAEjB;;ADtDD,AAAA,kBAAkB,CAAC,EAEf,KAAK,EAAE,GAAG,EACV,SAAS,EAAE,MAAM,EACjB,MAAM,EAAE,SAAS,EAEjB,MAAM,EAAE,IAAI,EAEZ,QAAQ,EAAE,MAAM,EAChB,aAAa,EAAE,SAAS,EAExB,UAAU,EAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,kBAAkB,GAE5C;;AAED,AAAA,eAAe,CAAC,EAEZ,MAAM,EAAE,KAAK,EACb,KAAK,EAAE,IAAI,EAEX,OAAO,EAAE,IAAI,EACb,cAAc,EAAE,MAAM,EACtB,eAAe,EAAE,QAAQ,EAEzB,eAAe,EAAE,KAAK,EACtB,mBAAmB,EAAE,aAAa,EAElC,KAAK,EAAE,KAAK,EACZ,WAAW,EAAE,iBAAiB,GAEjC;;AAED,AAAA,gBAAgB,CAAC,EAEb,OAAO,EAAE,IAAI,GAEhB;;AAED,AAAA,aAAa,CAAC,EAEV,UAAU,EAAE,IAAI,GAEnB;;AAED,AAAA,gBAAgB,CAAC,EAEb,MAAM,EAAE,IAAI,EACZ,KAAK,EAAE,IAAI,EAEX,OAAO,EAAE,IAAI,GAEhB"
+}
