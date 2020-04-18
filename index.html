@@ -3,7 +3,7 @@ title: Home
 ---
 <div class="page-splash">
     <div class="pfp-container">
-        <img class="pfp-img" src="http://placekitten.com/500/500">
+        <img class="pfp-img" src="https://via.placeholder.com/500">
     </div>
     <span class ="my-name">HI, I'M AVI.</span>
 </div>
@@ -22,7 +22,7 @@ title: Home
         {% for project in site.projects limit: 12 %}
         <div class="project">
             <a href="{{project.url}}" class="project-panel">
-                <div class="project-thumbnail" style="background-image: url({{project.project_header_img}});"></div>
+                <div class="project-thumbnail" {% if project.project_header_img %}style="background-image: url({{project.project_header_img}}); background-size: cover;" {% endif %}></div>
                 <div class="project-desc">
                     <h1 class="project-details">{{ project.project_name }}</h1>
                     <span class="project-category">{{ project.project_category }}</span>

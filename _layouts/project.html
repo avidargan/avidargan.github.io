@@ -19,7 +19,7 @@
         {% include header.html %}
         
         <div class="project-container">
-            <div class="project-header" style="background-image: url({{page.project_header_img}});">
+            <div class="project-header" {% if page.project_header_img %}style="background-image: url({{page.project_header_img}}); background-size: cover;" {% endif %}>
                 <div class="technologies-container">
                     
                     {% for tech in page.project_technologies limit: 3 %}
