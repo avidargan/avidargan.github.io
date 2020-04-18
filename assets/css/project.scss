@@ -38,7 +38,12 @@
 .project-details {
 
     padding: 20px;
+    background-color: initial;
 
+}
+
+.project-category, .project-name {
+    background-color: inherit;
 }
 
 .project-name {

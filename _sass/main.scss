@@ -1,6 +1,11 @@
 * {
+
     padding: 0px;
     margin: 0px;
+
+    background-color:#f3f3f3;
+    color: #222222;
+
 }
 
 html, body {
@@ -10,8 +15,24 @@ html, body {
 
 html {
 
-    background: #f3f3f3;    
     font-family: 'Josefin Sans', sans-serif;
+
+}
+
+@media (prefers-color-scheme: dark) {
+
+    * {
+
+        background-color: #222222;
+        color:#f3f3f3;
+
+    }
+
+    .page-splash {
+
+        background-color: #222222;
+        
+    }
 
 }
 
@@ -30,7 +51,6 @@ html {
 
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
-    color: #202020;
 
 }
 
@@ -48,18 +68,11 @@ html {
 }
 
 .email-desc {
-
+    
+    width: 90%;
     text-align: center;
-    color: #4d4d4d;
 
 }
-
-.my-email {
-
-    color: #202020;
-
-}
-
 
 @media only screen and (min-width: 750px) {
 
