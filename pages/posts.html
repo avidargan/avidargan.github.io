@@ -15,7 +15,7 @@ title: All Projects
         {% for project in site.projects %}
         <div class="project">
             <a href="{{project.url}}" class="project-panel">
-                <div class="project-thumbnail" style="background-image: url({{project.project_header_img}});"></div>
+                <div class="project-thumbnail" {% if page.project_header_img %}style="background-image: url({{page.project_header_img}}); background-size: cover;" {% endif %}></div>
                 <div class="project-desc">
                     <h1 class="project-details">{{ project.project_name }}</h1>
                     <span class="project-category">{{ project.project_category }}</span>
