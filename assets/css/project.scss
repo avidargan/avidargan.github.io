@@ -38,12 +38,11 @@
 .project-details {
 
     padding: 20px;
-    background-color: initial;
 
 }
 
-.project-category, .project-name {
-    background-color: inherit;
+.project-details, .project-category, .project-name {
+    background-color: initial;
 }
 
 .project-name {
@@ -58,5 +57,41 @@
     width: 100%;
 
     padding: 20px;
+
+}
+
+.technologies-container {
+
+    padding: 10px 7px 0 0;
+    background-color: initial;
+
+    display: flex;
+    flex-direction: row-reverse;
+    height: 25px;
+    margin-bottom: auto;
+
+}
+
+.technology {
+    
+    margin: 0px 3px;
+    width: auto;
+    background-color: #5cb045;
+    padding: 10px 10px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 5000px;
+
+}
+
+.technology-text {
+
+    background-color: initial;
+    transform: translateY(2px);
 
 }

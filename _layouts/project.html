@@ -20,6 +20,16 @@
         
         <div class="project-container">
             <div class="project-header" style="background-image: url({{page.project_header_img}});">
+                <div class="technologies-container">
+                    
+                    {% for tech in page.project_technologies limit: 3 %}
+                        {% assign technology = site.data.technologies | where:"name",tech | first %}
+                        <div class='technology' style="background-color: #{{ technology.colour }};">
+                            <p class='technology-text'>{{ technology.name }}</p>
+                        </div>
+                    {% endfor %}
+
+                </div>
                 <div class="project-details">
                     <p class="project-category">{{ page.project_category }}</p>
                     <h1 class="project-name">{{ page.project_name }}</h1>
