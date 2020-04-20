@@ -1,8 +1,6 @@
 ---
 ---
 @import "main";
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
-
 
 .project-container {
 
@@ -14,6 +12,11 @@
 
     overflow: hidden;
     border-radius: 50px 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     
@@ -32,6 +35,8 @@
     background-position: center center;
 
     text-shadow: 0px 0px 5px black;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 
 }
 
@@ -54,9 +59,20 @@
 .project-content {
 
     height: auto;
-    width: 100%;
+    width: 90%;
 
+    margin: 5px;
     padding: 20px;
+
+    font-family: 'Manrope', sans-serif;
+
+    h1,h2,h3,h4 {
+        margin-bottom: 15px;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
 
 }
 
