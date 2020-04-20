@@ -9,8 +9,9 @@
 }
 
 html, body {
-    position:relative;
+    // position:relative;
     overflow-x:hidden;
+    height: 100%;
 }
 
 html {
@@ -34,7 +35,33 @@ html {
 
     font-family: 'Roboto', sans-serif;
     font-size: 3em;
+    text-shadow: 0px 0px 5px black;
 
+}
+
+.ext-img-container {
+
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+
+}
+
+.ext-link-img {
+
+    height: 100%;
+    width: 100%;
+
+}
+
+.ext-links{
+
+    width: 500px;
+    height: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .page-footer {
@@ -42,9 +69,10 @@ html {
     height: 40px;
     width: 100%;
 
-    margin-top: 35px;
+    margin: 15px;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -52,6 +80,7 @@ html {
 
 .email-desc {
     
+    margin: 35px 0px 5px 0px;
     width: 90%;
     text-align: center;
 
