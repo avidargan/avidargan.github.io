@@ -4,3 +4,11 @@
   colour: b04c45
 - name: Git
   colour: 5cb045
+- name: Vue.js
+  colour: 42b983
+- name: Flask
+  colour: 1a1a1a
+- name: Docker
+  colour: 003f8c
+- name: Heroku
+  colour: 79589F

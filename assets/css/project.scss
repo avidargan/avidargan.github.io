@@ -56,6 +56,15 @@
 
 }
 
+.center {
+    text-align: center;
+    padding: 10px;
+}
+
+.center img {
+    max-height: 300px;
+}
+
 .project-content {
 
     height: auto;
@@ -63,6 +72,10 @@
 
     margin: 5px;
     padding: 20px;
+
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
 
     font-family: 'Manrope', sans-serif;
 
@@ -113,3 +126,7 @@
     color: #f3f3f3;
 
 }
+
+// img {
+//     width: 60%;
+// }
